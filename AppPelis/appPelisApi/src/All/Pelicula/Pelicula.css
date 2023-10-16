@@ -1,0 +1,40 @@
+.card{
+    background-color: rgba(27, 30, 36, 0.363);
+    width:20em;
+    height: auto;
+    display: flex;
+    justify-content: center;
+align-items: center;
+color: beige;
+transition: 1000ms;
+border-radius: 30px;
+margin:1rem ;
+}
+.card:hover{
+    background-color: rgba(6, 7, 8, 0.363);
+    transition: 1000ms;
+
+}
+img{
+    max-width:  20rem;
+    max-height:24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.btn-btn-primary{
+    background-color: rgb(11, 39, 53);
+    color: antiquewhite;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+    transition: 1000ms;
+
+}
+.btn-btn-primary:hover{
+    transition: 1000ms;
+    background-color: rgb(15, 57, 75);
+
+}
